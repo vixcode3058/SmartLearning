@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartLearning.ResultPage"
+             Title="Results">
+    <ContentPage.Content>
+        <StackLayout Margin="10" >
+
+            <StackLayout x:Name="SP_header" Orientation="Horizontal"   >
+                <Label Text="Topic" FontSize="Medium" HorizontalOptions="StartAndExpand"  WidthRequest="120" />
+                <Label Text="Correct" FontSize="Small"   HorizontalOptions="StartAndExpand" WidthRequest="50" TextColor="Green" />
+                <Label Text="Wrong" FontSize="Small"  HorizontalOptions="StartAndExpand" WidthRequest="50" TextColor="Red"/>
+                <Label Text="Last " FontSize="Small"  HorizontalOptions="StartAndExpand" WidthRequest="50"/>
+            </StackLayout>
+
+            <ListView x:Name="LV_results"  VerticalOptions="FillAndExpand"  HorizontalOptions="StartAndExpand" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="StartAndExpand" Margin="0,10">
+                                <Label Text="{Binding topicName}" HorizontalTextAlignment="Start" HorizontalOptions="StartAndExpand" FontSize="Small"  Margin="0,0,10,0" WidthRequest="120"/>
+                                <Label Text="{Binding correctAnswer}" HorizontalTextAlignment="Start" HorizontalOptions="StartAndExpand"  FontSize="Small" Margin="20,0,10,0" WidthRequest="50"/>
+                                <Label Text="{Binding wrongAnswer}"  HorizontalTextAlignment="Start"  FontSize="Small" HorizontalOptions="StartAndExpand"  Margin="10,0,10,0" WidthRequest="50"/>
+                                <Label Text="{Binding lastTimeAnswer}" HorizontalTextAlignment="End" HorizontalOptions="EndAndExpand" FontSize="Small"  Margin="10,0,10,0" WidthRequest="50"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

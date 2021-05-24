@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartLearning.TopicDetails"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid Margin="10" VerticalOptions="StartAndExpand" x:Name="GD_pageLayout">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="30" />
+
+            </Grid.RowDefinitions>
+            <ScrollView>
+                <StackLayout x:Name="SL_topicDetail"  Grid.Row="0">
+                    <Label Text="{Binding Description}" FontSize="Medium"/>
+                    <Image x:Name="IMG_TopicImage" Source="{Binding ImageName}"  />
+                </StackLayout>
+                
+            </ScrollView>
+
+            <ListView x:Name="LV_subTopics" ItemSelected="LV_subTopics_ItemSelected" Grid.Row="1" IsVisible="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                                <Label Text="{Binding Title}" HeightRequest="40" FontSize="Medium"/>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+            <!--<Button x:Name="BTn_subtopics" Clicked="BTn_subtopics_Clicked"/>-->
+            <StackLayout Grid.Row="2" Orientation="Horizontal">
+                <Label Text="Learned?"/>
+                <Switch x:Name="SW_learned" Toggled="SW_learned_Toggled"/>
+
+
+            </StackLayout>
+        </Grid>
+        
+        
+       
+    </ContentPage.Content>
+</ContentPage>

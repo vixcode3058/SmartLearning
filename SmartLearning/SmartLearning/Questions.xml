@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Question>
+
+    <id>1</id>
+		<title>Gantt chart</title>
+    <type>single</type>
+
+    <question>What are milestones in Gantt chart?</question>
+
+    <options>
+      <Option>
+      <option>milestones in project plan can help to monitor progress and identify potential delays</option>
+      <status>true</status>
+      </Option>
+
+      <Option>
+      <option>links tasks together to ensure work gets done in the right order</option>
+      <status>false</status>
+      </Option>
+
+      <Option>
+      <option>it is hierarchical reflection of all the work in the project in terms of deliverables</option>
+      <status>false</status>
+      </Option>
+    </options>
+
+    
+	</Question>
+
+  <Question>
+
+    <id>2</id>
+    <title>V Model</title>
+    <type>single</type>
+
+    <question>What is work breakdown structure?</question>
+
+    <options>
+      <Option>
+    <option>milestones in project plan can help to monitor progress and identify potential delays</option>
+    <status>true</status>
+      </Option>
+
+      <Option>
+    <option>links tasks together to ensure work gets done in the right order</option>
+    <status>false</status>
+      </Option>
+
+      <Option>
+    <option>it is hierarchical reflection of all the work in the project in terms of deliverables</option>
+    <status>false</status>
+      </Option>
+    </options>
+
+  </Question>
+
+  <Question>
+
+    <id>3</id>
+    <title>Work Breakdown Structure</title>
+    <type>multiple</type>
+
+    <question>Which statement is true?</question>
+
+    <options>
+      
+      <Option>
+        <option>Workbreakdown structure is simply a timeline view of your project</option>
+        <status>false</status>
+      </Option>
+
+      <Option>
+        <option>V Model is advanced version of Cascade model</option>
+        <status>true</status>
+      </Option>
+
+      <Option>
+        <option>Milestones are used to monitior the progress of the project.</option>
+        <status>true</status>
+      </Option>
+
+    </options>
+  </Question>
+
+  <Question>
+
+    <id>4</id>
+    <title>Gantt chart</title>
+    <type>single</type>
+
+    <question>What are taskbar in Gantt chart?</question>
+
+    <options>
+      <Option>
+        <option>milestones in project plan can help to monitor progress and identify potential delays</option>
+        <status>false</status>
+      </Option>
+
+      <Option>
+        <option>links tasks together to ensure work gets done in the right order</option>
+        <status>false</status>
+      </Option>
+
+      <Option>
+        <option>it is hierarchical reflection of all the work in the project in terms of deliverables</option>
+        <status>true</status>
+      </Option>
+    </options>
+
+
+  </Question>
+
+</ArrayOfQuestion>

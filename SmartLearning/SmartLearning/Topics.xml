@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ArrayOfTopicModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TopicModel>
+		<Id>1000</Id>
+		<Title>Work Breakdown Structure</Title>
+		<Description>The building blocks of a schedule start with a Work Breakdown Structure (WBS). The WBS is a hierarchical reflection of all the work in the project in terms of deliverables. In order to produce these deliverables, work must be performed.</Description>
+		<ImageName>WBS.png</ImageName>
+		<Example></Example>
+    <Learned>false</Learned>
+	</TopicModel>
+	<TopicModel>
+		<Id>2000</Id>
+		<Title>Gantt chart</Title>
+		<Description>A Gantt chart is simply a timeline view of your project. It’s a tool that helps you manage all of the different resources, people, and tasks along the way to accomplishing the goal of your project.  
+		Elements of a Gantt chart Gantt charts may seem complicated at first, but we can start by breaking them down into 4 sections.
+
+		•	Group and task names
+		•	Group and task bars
+		•	Milestones
+		•	Dependencies
+		</Description>
+		<ImageName></ImageName>
+		<Example></Example>
+    <Learned>false</Learned>
+
+  </TopicModel>
+	<TopicModel>
+	
+		<Id>2001</Id>
+		<Title>Group and task names</Title>
+		<Description>A project is made up of several tasks, and related tasks can be organized into groups. You can see in this example that there are multiple groups of tasks such as Book Musicians, Venue, Promotion, and Tickets. Often your projects will have multiple tasks to manage, so this is an easy way to organize and group tasks together. </Description>
+		<ImageName>GroupAndTaskName.png</ImageName>
+		<Example></Example>
+    <Learned>false</Learned>
+
+  </TopicModel>
+	
+	<TopicModel>
+	
+		<Id>2002</Id>
+		<Title>Group and task bars</Title>
+		<Description>You will also notice that the right-hand side of the chart has group and task bars that correspond to the group and task names. Each bar represents when the task will start and end. Gantt charts are especially useful for any project where you want to visualize how long your project will take.</Description>
+		<ImageName>GroupAndTaskbar.png</ImageName>
+		<Example></Example>
+    <Learned>false</Learned>
+
+  </TopicModel>
+	
+	<TopicModel>
+	
+		<Id>2003</Id>
+		<Title>Milestones</Title>
+		<Description>A milestone is an important goal, event, or deliverable in your project, such as a kickoff meeting or major deadline. Using milestones in your project plan can help you monitor progress and identify potential delays. In TeamGantt, milestones are signified by a gold diamond on the gantt chart and can be scheduled just as easily as tasks.</Description>
+		<ImageName>Milestones.png</ImageName>
+		<Example></Example>
+    <Learned>false</Learned>
+
+  </TopicModel>
+	
+	<TopicModel>
+	
+		<Id>2004</Id>
+		<Title>Dependencies</Title>
+		<Description>A dependency links tasks together to ensure work gets done in the right order. For instance, in the example below, we created a dependency between Venue site visits and Decide on venue because we can’t make a decision until we’ve visited each venue. In TeamGantt, a dependency shows up as a light gray line connecting tasks on your gantt chart.</Description>
+		<ImageName>Dependencies.png</ImageName>
+		<Example></Example>
+    <Learned>false</Learned>
+
+  </TopicModel>
+  
+  <TopicModel>
+  
+		<Id>3000</Id>
+		<Title> Waterfall Model (Cascade Model)</Title>
+		<Description> The waterfall model also known as cascade model is the oldest and most famous model of the IT product life cycle management. This model is commonly used because it seems to be the most natural one. Here, the problem is divided into several consecutive steps. Anyone who applies the waterfall model to build an IT system should go step by step through all its stages in a strict order. The phases that can be distinguished in the cascade model are among others: the gathering of requirements, analysis, design, implementation, testing, implementation of the entire system.  
+In this model, the output of one stage is a point of no return: one cannot make any step backwards. Thus, the sequence of stages is rigid. After creating a model of the problem domain an analyst designer passes the solution to a designer who in turn accedes to create a software project. Then, the programmer is responsible for  the implementation. The next step is a verification of the implementation intended to eliminate the mistakes so that one can deliver the product to the customer.
+• The order of transfer of results in cascade model is very important. Indeed, sometimes a return to the already completed phases of the model is necessary, but such situations should be avoided. The verification at each stage is therefore inevitable, especially when the team encounters errors at the stage of implementation.
+• Obtaining a product meeting customer expectation is very strongly dependent on the stability of requirements which are, in fact, very difficult to clarify at the beginning of designing. The phase of verification of the product compliance with the requirements is carried out only in the final stages.
+• If one tries to personalize the product in response to the change of requirements, the cost of the system creation must inevitably rise.
+• The order of execution of the work must be strictly followed, but it is not necessarily a disadvantage.
+• The high cost of mistakes made in the initial stages is very characteristic feature of the cascade model. The error at the stage of collection or analysis of requirements can be detected only at the stage of acceptance tests or, which is even worse, during the operation. The costs of their removal may significantly exceed the costs of mistakes made at the implementation stage.
+</Description>
+		<ImageName>Waterfall_model.png</ImageName>
+    <Learned>false</Learned>
+
+  </TopicModel>
+  
+  
+  <TopicModel>
+  
+		<Id>4000</Id>
+		<Title>V Model</Title>
+		<Description>The development of the cascade model is the model V. It gained popularity thanks to the extensive testing phase of the produced system. Tests at every stage of the software life cycle are for the sake of verification and to validate the correctness of operations included in it. Each step has been provided with the testingstage so one gets a product that meets customer requirements.
+An attempt to formalize the iterative approach to software development is a spiral model. This approach analyses the risks that occur in each iteration. Continuous monitoring and measuring changes which are subjected to critical evaluation by users allows one to conduct the risk analysis. One of the first steps within the spiral model is the analysis of the prerequisites. If the requirements seem to be achievable within the prescribed time, budget and the available resources (i.e. the principle of the triangle) one can start the project planning and the first iteration.
+Each iteration takes the form of small waterfalls followed by a review of the system. If the project requires further work, then one needs to plan the next iteration and perform risk analysis. Spiral model is a variant version of the waterfall model based on the current risk analysis.
+In the spiral model, we can distinguish four basic steps included in the system:
+• Planning - based on the requirements and objectives set by the customer, it shall be made to identify the alternatives and limitations and for planning iterations each time one starts the next spiral cycle
+• Risk analysis - is simply the assessment of alternatives, and attempts to identify and analyse the risks associated with each possible alternative construction of a new solution.
+• construction - is in the form of a small waterfall, and its aim is to produce the next version of the system.
+• evaluation by the customer - verification of the created solution and its assessment with the possibility of modifications to the requirements on the system (potential modifications to the requirements should be avoided). The benefits of the spiral model include the mitigation of the risk of failure of the project and product verification by the user at each stage in order to make a product fully satisfying the customer. An attempt to deal with the lack of identification and lack of requirement stability was included in the model of prototyping.
+In this model a system is created by building up successive approximations so that each of the subsequent prototypes could reflect the requirements as close as possible. Evaluation of the prototype and subsequent versions of these prototypes in a very natural way leads to the identification of requirements. Prototyping very often coincides with the requirements analysis phase and hence often depicted model is referred to as prototyping requirements. A characteristic feature of rapid prototyping is brisk pace of its creation putting its emphasis on its quality and adaptation to the target environment. A broader view of prototyping in order to contain the design phase in order to verify the effectiveness of the solutions adopted is also, possible.
+
+ </Description>
+ 
+ <ImageName>VModel.png</ImageName>
+    <Learned>false</Learned>
+
+  </TopicModel>
+</ArrayOfTopicModel>

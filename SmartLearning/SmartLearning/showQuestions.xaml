@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartLearning.showQuestions"
+             Title="Quiz">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="TB_result" Text="Results" Clicked="TB_result_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Margin="40,50">
+            <Label x:Name="LB_question" FontSize="Medium"/>
+
+            <ListView x:Name="LV_options"  HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="0,20,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                                <Label Text="{Binding option}"  VerticalTextAlignment="Center" HorizontalOptions="FillAndExpand" FontSize="Medium" TextColor="{Binding TextColor}"/>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="BT_submit" Text="Submit" Clicked="BT_submit_Clicked" BackgroundColor="Aqua" MinimumWidthRequest="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
